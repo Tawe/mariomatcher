@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from './logo.svg'
 import './App.css'
 import data from './characterdata'
 function App() {
@@ -28,7 +27,7 @@ function App() {
         count++
       }
     })
-    alert(`You got ${count} Correct`)
+    alert(`You got ${count} out of ${data.length} Correct`)
   }
 
   const Characters = ({ image, num }) => (
