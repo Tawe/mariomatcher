@@ -1,0 +1,3 @@
+node_modules/
+public/newRelic.js
+public/polyfills/

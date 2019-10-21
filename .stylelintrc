@@ -1,0 +1,29 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components"
+  ],
+  "syntax": "scss",
+  "plugins": ["stylelint-no-unsupported-browser-features"],
+  "rules": {
+    "value-list-max-empty-lines": null,
+    "declaration-colon-newline-after": null,
+    "declaration-empty-line-before": null,
+    "comment-empty-line-before": "never",
+
+    "declaration-no-important": true,
+    "font-family-name-quotes": "always-where-recommended",
+    "font-weight-notation": "numeric",
+    "selector-attribute-quotes": "always",
+    "string-quotes": "single",
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "browsers": ["> 1%", "not operamini all"],
+        "ignore": ["rem"],
+        "severity": "warning"
+      }
+    ]
+  }
+}

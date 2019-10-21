@@ -1,0 +1,38 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#a0827e",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#b6c9b8",
+    "activityBarBadge.foreground": "#15202b",
+    "titleBar.activeBackground": "#886864",
+    "titleBar.inactiveBackground": "#88686499",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#886864",
+    "statusBarItem.hoverBackground": "#a0827e",
+    "statusBar.foreground": "#e7e7e7"
+  },
+  "peacock.color": "#886864",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "files.associations": {
+    "*.js": "javascriptreact",
+    ".stylelintrc": "json",
+    ".eslintrc": "json",
+    ".babelrc": "json"
+  },
+  "stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": false,
+  "stylelint.config": {
+    "extends": "./.stylelintrc"
+  }
+}
